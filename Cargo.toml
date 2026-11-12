@@ -1,0 +1,13 @@
+[package]
+name = "passcheck-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Offline password strength auditor: patterns, entropy, crack-time estimates. Never echoes the password."
+license = "MIT"
+repository = "https://github.com/jvch0512/passcheck-rs"
+
+[[bin]]
+name = "passcheck"
+path = "src/main.rs"
+
+[dependencies]
